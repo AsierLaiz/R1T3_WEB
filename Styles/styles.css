@@ -1,0 +1,45 @@
+/* Estilo para el título del encabezado */
+.izenburua {
+    color: red;
+    text-align: center;
+    background-color: white;
+}
+
+/* Estilos globales para el cuerpo */
+body {
+    background-color: white;
+}
+
+header nav {
+	background:red;
+	margin-bottom:10px;
+}
+
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	display:flex;
+    padding: 20px;
+	color:#fff;
+	text-decoration: none;
+    text-align: center;
+}
+
+header nav ul li a:hover {
+	background:rgb(209, 100, 100);
+}
+header nav ul li a:active{
+    background: #e07068;
+}
+
+
+.link:hover {
+    color: black;
+}
